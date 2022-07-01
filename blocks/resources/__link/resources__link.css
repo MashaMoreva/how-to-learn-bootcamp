@@ -1,4 +1,10 @@
 .resources__link {
   list-style-type: none;
   display: flex;
+  transition: 1s ease;
 }
+
+.resources__link:hover {
+  opacity: .5;
+}
+
